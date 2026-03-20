@@ -27,6 +27,8 @@ RUN curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/master/install.sh | 
 
 # Set terminal for proper TUI rendering (color + status line)
 ENV TERM=xterm-256color
+ARG TZ=Europe/Warsaw
+ENV TZ=$TZ
 ENV PATH="/home/${USERNAME}/.local/bin:$PATH"
 
 WORKDIR /home/${USERNAME}

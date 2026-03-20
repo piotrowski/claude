@@ -12,6 +12,12 @@ To make it seamless and compatible with your local hooks and config Docker will 
 make build
 ```
 
+This automatically detects your host UID, GID, username, and timezone so the container matches your local environment. You can override any of these:
+
+```bash
+make build IMAGE=my-claude TAG=v1.0 TZ=America/New_York
+```
+
 ## Run
 
 ```bash
