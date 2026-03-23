@@ -1,4 +1,4 @@
-# Claude Code Docker
+# cclaude - Containerized Claude
 
 Run [Claude Code](https://claude.ai) in a containerized environment. 
 
